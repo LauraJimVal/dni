@@ -11,19 +11,25 @@
 </head>
 
 <body>
-    <div class="mb-3">
-        <label for="numDNI" class="form-label">DNI</label>
-        <input type="text"  id="numDNI" placeholder="XXXXXXXX">
-    </div>
-    <div class="mb-3">
-        <label for="letraDNI" class="form-label">Letra</label>
-        <input type="text" id="letraDNI" placeholder="X">
+    <div class="d-flex justify-content-center align-items-center flex-column">
+        <form>
+            <div class="mb-3">
+                <label for="numDNI" class="form-label">DNI</label>
+                <input type="text" id="numDNI" placeholder="XXXXXXXX">
+            </div>
+            <div class="mb-3">
+                <label for="letradni" class="form-label">Letra</label>
+                <input type="text" id="letraDNI" placeholder="X">
+            </div>
+            <button type="button" class="btn btn-primary" onclick="comprobarLetra()">Comprobar letra</button>
+            <br>
+            <br>
+            <div id="resultado"></div>      
+        </form>
+       
     </div>
     
-    <input type="button" onclick="letraDNI();" value= "comprobar letra">
-    <br>
-    <br>
-    <div id="resultado"></div>    
+      
 </body>
 
 </html>
