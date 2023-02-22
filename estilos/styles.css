@@ -6,7 +6,7 @@ form {
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    width: 50%;
+    width: 90%;
     margin-top: 8em;
 }
 
@@ -15,7 +15,7 @@ input{
 }
 
 /* Estilos para pantallas a partir de 768 px */
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
     form{
         width: 400px;
     }
